@@ -1,7 +1,7 @@
 import lume from "lume/mod.ts";
 import jsx from "lume/plugins/jsx_preact.ts";
 
-const site = lume({dest: "./out"});
+const site = lume({dest: "./"});
 
 site.use(jsx());
 
